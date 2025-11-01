@@ -39,7 +39,6 @@ Questo progetto è nato come parte di una collaborazione tra l'**ITTS A. Volta d
 
 - **Lingua principale:** HTML, CSS, JavaScript
 - **Commits:** ![Commits](https://img.shields.io/github/commit-activity/m/lwsioo/sitoYaps?style=flat&color=blue)
-- **Stato dei rilasci:** ![Release](https://img.shields.io/github/release/lwsioo/sitoYaps.svg?style=flat&color=green)
 
 ---
 
