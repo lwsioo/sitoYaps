@@ -31,15 +31,15 @@ Questo progetto è nato come parte di una collaborazione tra l'**ITTS A. Volta d
 
 ## 📅 **Ultimo Aggiornamento**
 
-[![Ultimo Aggiornamento](https://img.shields.io/badge/Ultimo%20Aggiornamento-12%20Maggio%202025-blue)](https://github.com/MrErmita/sitoYaps/commits/main)
+[![Ultimo Aggiornamento](https://img.shields.io/badge/Ultimo%20Aggiornamento-12%20Maggio%202025-blue)](https://github.com/lwsioo/sitoYaps/commits/main)
 
 ---
 
 ## 📈 **Statistica**
 
 - **Lingua principale:** HTML, CSS, JavaScript
-- **Commits:** ![Commits](https://img.shields.io/github/commit-activity/m/MrErmita/sitoYaps?style=flat&color=blue)
-- **Stato dei rilasci:** ![Release](https://img.shields.io/github/release/MrErmita/sitoYaps.svg?style=flat&color=green)
+- **Commits:** ![Commits](https://img.shields.io/github/commit-activity/m/lwsioo/sitoYaps?style=flat&color=blue)
+- **Stato dei rilasci:** ![Release](https://img.shields.io/github/release/lwsioo/sitoYaps.svg?style=flat&color=green)
 
 ---
 
@@ -52,7 +52,7 @@ Se desideri contribuire a migliorare questo progetto o hai suggerimenti, puoi fa
 ## 👥 **Autore**
 
 - **Nome:** Alessio Bragetti, Emma Speziali
-- **GitHub:** [@MrErmita](https://github.com/MrErmita), [@EmmaSpeziali](https://github.com/EmmaSpeziali)
+- **GitHub:** [@lwsioo](https://github.com/lwsioo), [@EmmaSpeziali](https://github.com/EmmaSpeziali)
 
 ---
 
