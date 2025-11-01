@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contatti</title>
+    <link rel="icon" type="image/x-icon" href="res/csg.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f4f4f8;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+      background-image: url("res/sfondoChiaro.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: scroll;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #a331cd;
+      color: white;
+      padding: 20px;
+      font-size: 2em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      min-height: 80px;
+    }
+
+    header a {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      align-items: center;
+    }
+
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+
+    .media {
+      flex: 1 1 400px;
+      max-width: 500px;
+    }
+
+    .text {
+      flex: 1 1 400px;
+      max-width: 500px;
+      text-align: left;
+    }
+
+    .text h2 {
+      font-size: 1.6em;
+      margin-bottom: 10px;
+    }
+
+    .text p {
+      font-size: 1em;
+      color: #444;
+      line-height: 1.6;
+    }
+    .container-main {
+      width: 80%;
+      margin: 30px auto;
+    }
+    .collapsed {
+      max-height: 160px;
+      overflow: hidden;
+      transition: max-height 0.5s ease;
+    }
+
+    .expanded {
+      max-height: 1500px;
+      transition: max-height 0.5s ease;
+    }
+
+    .read-more-btn {
+      background: none;
+      border: none;
+      color: #a331cd;
+      padding: 0;
+      font: inherit;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+      display: block;
+    }
+  </style>
+  <body>
+    <header>
+      Contatti Utili
+      <a href="index.html" style="float: left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          fill="white"
+          class="bi bi-house"
+          viewBox="0 1 16 16"
+        >
+          <path
+            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"
+          />
+        </svg>
+      </a>
+      <br />
+    </header>
+
+    <div class="container-main">
+      <div class="section">
+        <div class="media">
+          <img
+            src="res/contatti/locandinaContatti.jpeg"
+            alt="locandinaContatti"
+            width="90%"
+            height="90%"
+            class="rounded"
+          />
+        </div>
+        <div class="text">
+          <h2>Punto di ascolto giovani</h2>
+          <p>
+            Offre uno spazio sicuro per esprimersi e confrontarsi, con la guida
+            di professionisti come uno psicologo-psicoterapeuta e un'assistente
+            sociale. Consulta la locandina per scoprire sedi, orari e modalità
+            di accesso.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-main">
+      <div class="section">
+        <div class="media">
+          <img
+            src="res/contatti/csg.png"
+            alt="logoCsg"
+            width="95%"
+            height="95%"
+            class="rounded"
+          />
+        </div>
+        <div class="text">
+          <h2>Centro Servizi Giovani</h2>
+          <p>
+            Un servizio gratuito dedicato ai giovani tra i 14 e i 30 anni, per
+            offrire ascolto, supporto e orientamento. Per contattare
+            direttamente il CSG Perugia rivolgersi alla pagina Instagram:
+            <a href="https://www.instagram.com/csg_comune_pg/" target="_blank"
+              >@csg_comune_pg</a
+            >
+            oppure al numero <a href="tel:3407301886">3407301886</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-main">
+      <div class="section">
+        <div class="media">
+          <img
+            src="res/contatti/logoYaps.png"
+            alt="logoYaps"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div class="text">
+          <h2>Gruppo YAPS</h2>
+          <div id="yaps-text" class="collapsed">
+            <p>
+              YAPS Young and Peer School è un progetto di peer education che
+              coinvolge i ragazzi degli istituti superiori di secondo grado del
+              perugino. È frutto di una collaborazione tra il Comune di Perugia,
+              il Centro Servizi Giovani, gli istituti scolastici e l’USL Umbria
+              1.
+              <br /><br />
+              IN COSA CONSISTE IL PROGETTO? <br />
+              Nato come spazio di ascolto e informazione all’interno degli
+              istituti scolastici e gestito da ragazzi per ragazzi, il progetto
+              si è evoluto negli anni, focalizzandosi sull’ideazione da parte
+              dei peer educators di iniziative ed interventi di
+              sensibilizzazione su tematiche di attualità e interesse per i
+              giovani, rivolte ai loro coetanei all’interno delle scuole.
+              L’obiettivo del progetto è quello di favorire la crescita
+              personale dei ragazzi, la consapevolezza di sé e la riflessione su
+              questioni dirimenti del tempo presente, promuovere la salute e il
+              benessere in senso lato. La peer education, metodologia educativa
+              basata su un confronto tra pari, si rivela in questo senso
+              preziosa ed efficace per veicolare contenuti in un clima di
+              reciprocità, grazie al fatto che i peer e i destinatari dei loro
+              interventi condividono uno stesso patrimonio linguistico,
+              valoriale e rituale. Nel loro percorso, i peer sono supportati
+              dagli operatori del Centro Servizi Giovani del Comune di Perugia e
+              dai docenti tutors e seguono una formazione e una supervisione
+              periodica da parte del personale dell’USL Umbria 1. GLI ISTITUTI
+              COINVOLTI IIS “Cavour – Marconi – Pascal” ITET “Aldo Capitini”
+              Liceo Artistico “Bernardino di Betto” IIS “Giordano Bruno” Liceo
+              Scientifico “Galileo Galilei” Liceo Scientifico "G. Alessi" Liceo
+              "Assunta Pieralli" ITTS "A. Volta"
+            </p>
+          </div>
+          <button id="toggle-button" class="read-more-btn">
+            Continua a leggere
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-main">
+      <div class="section">
+        <div class="media">
+          <img
+            src="res/contatti/logoYapsVolta.png"
+            alt="logoYapsVolta"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div class="text">
+          <h2>Gruppo YAPS Alessandro Volta</h2>
+          <p>
+            Gli studenti interessati a entrare in contatto con il gruppo del
+            progetto YAPS di Istituto o che sono interessati a partecipare al
+            progetto possono contattare via email il referente Prof. Sandro
+            Piermattei all'indirizzo
+            <a href="mailto:sandro.piermattei@gmail.com"
+              >sandro.piermattei@gmail.com</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-main">
+      <div class="section">
+        <div class="media">
+          <img
+            src="res/contatti/yau.png"
+            alt="locandinaYAU"
+            width="95%"
+            height="95%"
+          />
+        </div>
+        <div class="text">
+          <h2>Parlane con unə coetaneə - Chat YAU</h2>
+          <p>
+            A volte parlare con qualcuno della propria età può fare la
+            differenza. Il progetto YAU è uno spazio digitale sicuro dove i
+            giovani possono confrontarsi con coetanei su temi come benessere,
+            emozioni, scuola e relazioni. Un luogo protetto dove parlare
+            liberamente e trovare ascolto senza giudizio. Per più info vai alla pagina instagram: <a href="https://www.instagram.com/yau_lachatchetiascolta/" target="_blank">@yau_lachatchetiascolta</a> e visita il sito: <a href="https://app.youngle.it/login" target="_blank">app.youngle.it</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const btn = document.getElementById("toggle-button");
+      const text = document.getElementById("yaps-text");
+
+      btn.addEventListener("click", () => {
+        const isExpanded = text.classList.toggle("expanded");
+        text.classList.toggle("collapsed", !isExpanded);
+        btn.textContent = isExpanded ? "Leggi meno" : "Continua a leggere";
+      });
+    </script>
+  </body>
+</html>

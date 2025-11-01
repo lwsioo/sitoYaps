@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="res/csg.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background-color: #f4f4f8;
+        margin: 0;
+        padding: 0;
+        user-select: none;
+        background-image: url("res/sfondoChiaro.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+        min-height: 100vh;
+      }
+
+      .bg-purple {
+        background-color: #a331cd;
+      }
+
+      .navbar-custom {
+        position: relative;
+        padding: 0.75rem 1rem;
+      }
+
+      .navbar-text-end img {
+        height: 40px;
+      }
+
+      .navbar-text-end {
+        margin-left: auto;
+      }
+
+      .container-boxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        max-width: 60%;
+        margin: 1.5rem auto;
+      }
+
+      .card-link {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .box {
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+        padding: 0.5rem;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        height: 100%;
+      }
+
+      .box:hover {
+        transform: scale(1.02);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      }
+
+      .box h2 {
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+        color: #222;
+      }
+
+      .image img {
+        width: 60%;
+        height: auto;
+        border-radius: 8px;
+        object-fit: cover;
+      }
+
+      .titleContainer {
+        width: 25%;
+        margin: auto;
+        margin-top: 1%;
+        margin-bottom: 2%;
+      }
+
+      @media (max-width: 768px) {
+        .container-boxes {
+          grid-template-columns: 1fr;
+          gap: 1rem;
+          max-width: 90%;
+        }
+
+        .navbar-text-end img {
+          height: 30px;
+        }
+
+        .titleContainer {
+          width: 80%;
+        }
+
+        .box h2 {
+          font-size: 0.9rem;
+        }
+
+        .image img {
+          width: 70%;
+        }
+      }
+
+      .logo-navbar {
+        height: 40px;
+      }
+
+      @media (min-width: 768px) {
+        .logo-navbar {
+          height: 60px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-purple navbar-custom">
+      <div class="container-fluid d-flex align-items-center">
+        <button
+          class="navbar-toggler text-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-2" id="navbarMenu">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="intervento.html"
+                >Pronto intervento</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="scopri.html"
+                >Scopri di più</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contatti.html"
+                >Contatti utili</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="materiali.html">Materiali</a>
+            </li>
+          </ul>
+        </div>
+
+        <div
+          class="navbar-text-end d-flex align-items-center gap-2 text-white flex-nowrap"
+        >
+          <div class="d-flex flex-column lh-sm">
+            <span class="fw-semibold fs-6 text-nowrap">Rete di scuole che</span>
+            <span class="fw-semibold fs-6 text-nowrap">Promuovono Salute</span>
+          </div>
+          <img
+            src="res/contatti/logoYapsVolta.png"
+            alt="Logo YAPS"
+            style="height: 40px"
+          />
+        </div>
+      </div>
+    </nav>
+
+    <!-- Titolo -->
+    <div class="titleContainer">
+      <img src="res/logo.png" alt="titolo" width="100%" height="100%" />
+    </div>
+
+    <!-- Card Container -->
+    <div class="container-boxes">
+      <a href="intervento.html" class="card-link">
+        <div class="box">
+          <h2>Pronto Intervento</h2>
+          <div class="image">
+            <img src="res/home/prontoIntervento.png" alt="Pronto Intervento" />
+          </div>
+        </div>
+      </a>
+      <a href="scopri.html" class="card-link">
+        <div class="box">
+          <h2>Scopri di più</h2>
+          <div class="image">
+            <img src="res/home/info.png" alt="Info" />
+          </div>
+        </div>
+      </a>
+      <a href="contatti.html" class="card-link">
+        <div class="box">
+          <h2>Contatti utili</h2>
+          <div class="image">
+            <img src="res/home/contatti2.png" alt="Contatti" />
+          </div>
+        </div>
+      </a>
+      <a href="materiali.html" class="card-link">
+        <div class="box">
+          <h2>Materiali</h2>
+          <div class="image">
+            <img src="res/home/materiali.png" alt="Materiali" />
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
